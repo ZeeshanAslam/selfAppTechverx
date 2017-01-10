@@ -1,0 +1,22 @@
+
+.men{
+	float:left;
+	width:25%;
+}
+
+ul.support-right li i.men{
+	background-position:-57px -9px;
+}
+
+
+
+ul.support li i,ul.support-right li i{
+	background: url(img-sprite.png) -104px -9px;
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 3px 0 0;
+	  
+}
+
