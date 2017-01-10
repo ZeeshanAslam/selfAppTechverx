@@ -36,33 +36,33 @@
 
 
 
-                <li ><i class="men"></i> <%= link_to "Logout" , destroy_user_session_path,  method: "delete"%></li>
+                    <li ><i class="men"></i> <%= link_to "Logout" , destroy_user_session_path,  method: "delete"%></li>
 
-                <%else%>
+                    <%else%>
 
-                <li ><i class="men"></i> <%= link_to "Click Here", '#myModal', :id => '', "data-toggle" => "modal" %></li>
+                    <li ><i class="men"></i> <%= link_to "Click Here", '#myModal', :id => '', "data-toggle" => "modal" %></li>
 
-                <%end%>
+                    <%end%>
 
 
 
-            </ul>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
+        <!-- /.container-fluid -->
+    </nav>
 
 
 
 
-<div class="modal fade" id="myModal" role="dialog">
- <%= render 'mycontroller/option_box'%>
-</div>
+    <div class="modal fade" id="myModal" role="dialog">
+     <%= render 'mycontroller/option_box'%>
+ </div>
 
 
 
-<div class="modal fade" id="LoginModel" role="dialog">
+ <div class="modal fade" id="LoginModel" role="dialog">
    <%= render 'mycontroller/login_box'%>
 </div>
 
